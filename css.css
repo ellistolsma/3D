@@ -4,8 +4,7 @@
 
 .menu {
 	width:10%;
-	
-}
+	}
 
 .main {
   height: 100vh;
@@ -15,10 +14,7 @@
   float: right;
   padding: 20px;
   margin-top:0%;
-
 }
-
-
 
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif;}
 .w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
@@ -32,8 +28,7 @@ background-color: #DBC6D7 !important;}
     font-size: 30px;
 	padding-top:10px;
 	color:#E60E11;
-	float:right;
-	
+	float:right;	
 }
  
 
@@ -63,9 +58,9 @@ max-width: 100%;
 	width:15%;
 	display:inline;
 	padding-top: 5px;
-	padding-bottom:15px;
-	
+	padding-bottom:15px;	
 }
+
 .driedee { 
 	max-width: 100%;
 	width:53%;
@@ -79,7 +74,6 @@ max-width: 100%;
 .phone {
 	width:45%;
 	margin-top: -90px;
-
 }
 
 .tv { 
@@ -96,7 +90,8 @@ margin-left:-30px;
 .houseplant { 
 width: 70%; 
 margin-right:20px; 
-margin-top:-50px;}
+margin-top:-50px;
+}
 
 .window { 
 width:35%;
@@ -109,8 +104,7 @@ width:35%;
 	background-color: #DBC6D7 !important;
 	z-index:3;
 	width:150px;
-	font-weight:"bold" 
-	
+	font-weight:"bold" 	
 }
 
 
@@ -125,8 +119,6 @@ width:35%;
   margin-right: auto;
   display: block;
   top:19%;
-	
-  
 }
 
 /* Hide thimages by default */
@@ -189,7 +181,6 @@ margin-right:70px;
 
 /* The dots/bullets/indicators */
 .dot {
-  
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -201,8 +192,7 @@ margin-right:70px;
 }
 
 .active, .dot:hover {
-  background-color: #FF0004;
-	
+  background-color: #FF0004;	
 }
 
 /* Fading animation */
@@ -214,15 +204,20 @@ margin-right:70px;
 }
 
 
-
-
-
-.w3-sidebar2 {height:100%; background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.w3-sidebar2 {
+	height:100%; 
+	background-color:#fff;
+	position:fixed!important;
+	z-index:1;
+	overflow:auto
+}
 
 
 
 @media (max-width:992px) {
-	.main {width:100%;}
+	
+	.main {width:100%;
+	}
 	
 	.mySlides {
 		max-width: 100%;
@@ -237,18 +232,17 @@ margin-right:70px;
 	
 	.ogen { 
 	width:90%;
-	margin-left:20px;}
+	margin-left:20px;
+	}
 	
 	.prev, .next {
 	top:94%;
-	
 	}
 	
-	
 	.dots { 
-		visibility: hidden; }
-	
-
+	visibility: hidden;
+	}
+} 
 
 
 @-webkit-keyframes fade {
